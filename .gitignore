@@ -1,0 +1,16 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore K3s cluster data
+.kube/
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore secrets
+.env
+secrets.yaml
+aws-secrets.yaml
+get_helm.sh
