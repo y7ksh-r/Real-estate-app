@@ -1,11 +1,9 @@
 # Real Estate App - Kubernetes Manifests
 
 ## Overview
-This repository contains **Kubernetes manifests** for deploying the Real Estate App on a **K3s cluster hosted on AWS.**
+This repository contains **Kubernetes manifests** for deploying the Real Estate App on a **K3s cluster hosted on AWS.** 
 
-## Architecture Diagram
-![Kubernetes Deployment](https://raw.githubusercontent.com/y7ksh-r/Real-estate-app/main/real-estate-k8s/k8s_architecture.png)  
-*Kubernetes setup with deployments, services, and ingress for traffic routing.*
+Make sure you have completed [step 2](https://github.com/y7ksh-r/Real-estate-app-infra) before proceeding further.
 
 ## Features
 - **Declarative Configuration**: All K8s resources are managed via YAML files.
